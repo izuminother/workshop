@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品公開ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>作品一覧</h1>
+        
+        <div class="category">
+            <button class="category-title" onclick="toggleCategory('category1')">生物</button>
+            <div id="category1" class="category-content">
+                <ul>
+                    <li><a href="works/生物基礎二期中間詰め合わせ.pdf" target="_blank">生物基礎二期中間詰め合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <button class="category-title" onclick="toggleCategory('category2')">地理</button>
+            <div id="category2" class="category-content">
+                <ul>
+                    <li><a href="works/南北アメリカまとめ.pdf" target="_blank">南北アメリカまとめ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
